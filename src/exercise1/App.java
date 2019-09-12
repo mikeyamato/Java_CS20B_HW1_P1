@@ -16,7 +16,9 @@ public class App {
     Number result1 = Numbers.multiply(base, exponent);
     double result2 = Math.pow(base, exponent);
     System.out.println("This uses one method of calculating the power: " + result1);
+    System.out.println("The time efficiency is O log N.");
     System.out.println("And this uses another method of calculating the power: " + Math.round(result2));
+    System.out.println("The time efficiency is log N.");
   }
   // why can't I use `System.out` here?
 
